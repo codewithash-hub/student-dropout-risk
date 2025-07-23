@@ -19,6 +19,8 @@ This project uses machine learning to predict the likelihood of student dropouts
 * **Pandas & NumPy** for data manipulation
 * **Matplotlib & Seaborn** for visualizations
 * **Jupyter Notebook** for development and presentation
+* **Flask** for web deployment
+* **Bootstrap** for front-end styling
 
 ---
 
@@ -37,6 +39,10 @@ This project uses machine learning to predict the likelihood of student dropouts
 
   * Feature importance
   * Model performance metrics
+* **Web App Deployment**:
+
+  * Upload CSV for predictions
+  * Display predictions and visualizations
 
 ---
 
@@ -51,10 +57,16 @@ This project uses machine learning to predict the likelihood of student dropouts
 
 ```
 .
+├── app.py
 ├── data/
 │   └── student_data.csv
 ├── notebooks/
 │   └── dropout_prediction.ipynb
+├── templates/
+│   ├── index.html
+│   └── results.html
+├── static/
+│   └── styles.css
 ├── visuals/
 │   └── confusion_matrix.png
 │   └── feature_importance.png
@@ -96,9 +108,9 @@ pip install -r requirements.txt
 ## 👤 Author
 
 **Rotondwa Munyai**
-Email: [codewithash.dev@gmail.com](mailto:codewithash.dev@gmail.com)
+Email: [munyaiashley99@gmail.com](mailto:munyaiashley99@gmail.com)
 GitHub: [codewithash-hub](https://github.com/codewithash-hub)
-LinkedIn: [Rotondwa Munyai](https://www.linkedin.com/in/rotondwa-munyai)
+LinkedIn: [Rotondwa Munyai](linkedin.com/in/rotondwa-munyai-b50021239)
 
 ---
 
