@@ -69,7 +69,7 @@ This project uses machine learning to predict the likelihood of student dropouts
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/student-dropout-risk.git
+git clone https://github.com/codewithash-hub/student-dropout-risk.git
 cd student-dropout-risk
 ```
 
